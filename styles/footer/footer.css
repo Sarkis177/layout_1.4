@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("../../fonts/TTLakes-Medium.woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../../fonts/TTLakes-Bold.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.contacts {
+  padding-top: 244px;
+  margin-left: 24px;
+}
+
+.contacts__icon {
+  padding-right: 15px;
+}
+
+.contacts__mail,
+.lang__item {
+  font-size: 16px;
+  font-family: "TT Lakes Condensed";
+}
+
+.contacts__phone-number {
+  font-size: 24px;
+  font-family: "TT Lakes";
+  margin: 0px 0px 36px 0px;
+}
+
+.lang__item:hover {
+  color: #7e7e82;
+  transition: 1s;
+  cursor: pointer;
+}

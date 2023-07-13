@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: url("../../fonts/TTLakes-Medium.woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+.container {
+  box-shadow: 20px 0px 37px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+body {
+  margin: 0px;
+}
+
+.list__item {
+  list-style: none;
+  font-family: "TT Lakes Condensed";
+  font-size: 16px;
+  color: #1b1c21;
+  padding-bottom: 32px;
+  margin-left: -25px;
+  width: fit-content;
+}
+
+.list__item:hover {
+  color: #7e7e82;
+  transition: 0.9s ease-out;
+  cursor: pointer;
+  transform: scale(1.1);
+  text-shadow: rgb(127, 127, 127) 8px 8px 8px;
+  animation: opacity 1.9s ease-out;
+}
+
+@keyframes opacity {
+    0%  { opacity: 0.2; }
+    100% { opacity: 1; }
+  }
+  
+.list__icon {
+  margin-top: 50px;
+}
+
+.list__ul {
+  margin: -30px 0px 0px 10px;
+}
+
+
